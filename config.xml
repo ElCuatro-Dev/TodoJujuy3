@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "app3.todojujuy.com"
+    version   = "2.0">
+  <name>TodoJujuy</name>
+  <author href="http://www.unicable.com.ar" email="ofunes@unicable.com.ar">Marcelo Funes</author>
+  <description>Diario Digital - Jujuy, Argentina</description>
+  <content src="index.html"/>
+  <access origin="*"/>
+  
+  <icon src="icon.png" />
+  <icon src="res/img/android/icon-ldpi.png" gap:platform="android" gap:qualifier="ldpi" gap:density="ldpi" />
+  <icon src="res/img/android/icon-mdpi.png" gap:platform="android" gap:qualifier="mdpi" gap:density="mdpi" />
+  <icon src="res/img/android/icon-hdpi.png" gap:platform="android" gap:qualifier="hdpi" gap:density="hdpi" />
+  <icon src="res/img/android/icon-xhdpi.png" gap:platform="android" gap:qualifier="xhdpi" gap:density="xhdpi" />
+  <icon src="res/img/logo.png" gap:platform="blackberry" />
+  <icon src="res/img/logo.png" gap:platform="winphone" />
+  <icon src="res/img/logo.png" gap:platform="webos" />
+  <gap:splash src="res/img/splash.png" />
+  <gap:splash src="res/img/android/ldpi.png" gap:platform="android" gap:qualifier="port-ldpi" gap:density="ldpi" />
+  <gap:splash src="res/img/android/mdpi.png" gap:platform="android" gap:qualifier="port-mdpi" gap:density="mdpi" />
+  <gap:splash src="res/img/android/hdpi.png" gap:platform="android" gap:qualifier="port-hdpi" gap:density="hdpi" />
+  <gap:splash src="res/img/android/xhdpi.png" gap:platform="android" gap:qualifier="port-xhdpi" gap:density="xhdpi" />
+  <gap:splash src="res/img/bb/splash.png" gap:platform="blackberry" />
+  <gap:splash src="res/img/winphone/splash.jpg" gap:platform="winphone" />
+  <preference name="android-installLocation" value="preferExternal" />
+  <preference name="AutoHideSplashScreen" value="false"/>
+  <preference name="splash-screen-duration" value="8000" />
+  <preference name="SplashScreenDelay" value="8000" />   
+  <preference name="permissions" value="none" />
+  <preference name="orientation" value="portrait" />
+  <gap:plugin name="nl.x-services.plugins.socialsharing" source="plugins.cordova.io" />
+  <gap:plugin name="org.apache.cordova.splashscreen" />
+  <gap:plugin name="org.apache.cordova.inappbrowser" />-->
+  <gap:plugin name="com.danielcwilson.plugins.googleanalytics" version="0.6.1" />
+</widget>

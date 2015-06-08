@@ -304,15 +304,15 @@ filter:progid:DXImageTransform.Microsoft.gradient(enabled=false)
 }
 .navbar {
 	position: relative;
-	z-index:999;
-	min-height: 50px;
-	background-color: #444241
+	z-index:9999;
+	min-height: 48px;
+	background-color: #444241;
 }
 .navbar-collapse {
 	overflow-x: visible;
 	margin-top:50px;
 	top:0px;
-	position:fixed;
+	position:fixed; background-color:#000;
 }
 .navbar-collapse.in { overflow-y: auto }
 
@@ -342,12 +342,10 @@ filter:progid:DXImageTransform.Microsoft.gradient(enabled=false)
 	position: relative;
 	z-index:9999;
 	float: right;
-	padding: 9px 4px;
+	padding: 4px 4px;
 	margin-top: 8px;
 	margin-right: 4px;
 	margin-bottom: 8px;
-	background-color: transparent;
-	background-image: none;
 	border:none;
 	color:#FFF;
 }
@@ -365,10 +363,6 @@ filter:progid:DXImageTransform.Microsoft.gradient(enabled=false)
 	margin-right: -15px;
 	margin-bottom: 8px;
 	margin-left: -15px;
-	border-top: 1px solid transparent;
-	border-bottom: 1px solid transparent;
-	-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 1px 0 rgba(255,255,255,.1);
-	box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 1px 0 rgba(255,255,255,.1)
 }
 .navbar-nav>li>.dropdown-menu {
 	margin-top: 0;
@@ -426,8 +420,8 @@ filter:progid:DXImageTransform.Microsoft.gradient(enabled=false)
 	color: #ccc;
 	background-color: #333
 }
-.navbar-default .navbar-toggle { border-color: #ddd }
-.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover { background-color: #595959 }
+.navbar-default .navbar-toggle { margin-left:10px;  }
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {  }
 .navbar-default .navbar-toggle .icon-bar { background-color: #888 }
 .navbar-default .navbar-collapse, .navbar-default .navbar-form { border-color: transparent }
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
@@ -500,7 +494,7 @@ button.close {
 	background: 0 0;
 	border: 0
 }
-.navbar-header { position:fixed; max-height:50px; overflow:hidden; z-index:800; background-color:#414244 }
+.navbar-header { position:fixed; max-height:50px; overflow:hidden; z-index:800; background-color:#414244; border-bottom:4px solid #d73a3a }
 .btn-group-vertical>.btn-group:after, .btn-group-vertical>.btn-group:before, .btn-toolbar:after, .btn-toolbar:before, .clearfix:after, .clearfix:before, .container-fluid:after, .container-fluid:before, .container:after, .container:before, .dl-horizontal dd:after, .dl-horizontal dd:before, .form-horizontal .form-group:after, .form-horizontal .form-group:before, .modal-footer:after, .modal-footer:before, .nav:after, .nav:before, .navbar-collapse:after, .navbar-collapse:before, .navbar-header:after, .navbar-header:before, .navbar:after, .navbar:before, .pager:after, .pager:before, .panel-body:after, .panel-body:before, .row:after, .row:before {
 	display: table;
 	content: " "

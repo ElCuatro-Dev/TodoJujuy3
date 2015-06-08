@@ -33,13 +33,16 @@
 .navbar-nav.sm-collapsible .caret:before {
 	content: '+';
 	font-family: monospace;
-	font-weight: bold;
 }
 .navbar-nav.sm-collapsible .open > a > .caret:before {
 	content: '-';
 }
 .navbar-nav.sm-collapsible a.has-submenu {
-	padding-right: 50px;
+	line-height:20px;
+	min-height:20px;
+	float:left;
+	width:98%;
+	color:#d73a3a;
 }
 /* revert to Bootstrap's default carets in collapsible mode when the "data-sm-skip-collapsible-behavior" attribute is set to the ul.navbar-nav */
 .navbar-nav.sm-collapsible[data-sm-skip-collapsible-behavior] .caret, .navbar-nav.sm-collapsible[data-sm-skip-collapsible-behavior] ul .caret {

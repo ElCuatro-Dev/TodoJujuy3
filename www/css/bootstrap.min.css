@@ -343,7 +343,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(enabled=false)
 	z-index:9999;
 	float: right;
 	padding: 4px 4px;
-	margin-top: 8px;
+	margin-top: 5px;
 	margin-right: 4px;
 	margin-bottom: 8px;
 	border:none;
@@ -494,7 +494,7 @@ button.close {
 	background: 0 0;
 	border: 0
 }
-.navbar-header { position:fixed; max-height:50px; overflow:hidden; z-index:800; background-color:#414244; border-bottom:4px solid #d73a3a }
+.navbar-header { position:relative; max-height:50px; overflow:hidden; z-index:800; background-color:#414244; }
 .btn-group-vertical>.btn-group:after, .btn-group-vertical>.btn-group:before, .btn-toolbar:after, .btn-toolbar:before, .clearfix:after, .clearfix:before, .container-fluid:after, .container-fluid:before, .container:after, .container:before, .dl-horizontal dd:after, .dl-horizontal dd:before, .form-horizontal .form-group:after, .form-horizontal .form-group:before, .modal-footer:after, .modal-footer:before, .nav:after, .nav:before, .navbar-collapse:after, .navbar-collapse:before, .navbar-header:after, .navbar-header:before, .navbar:after, .navbar:before, .pager:after, .pager:before, .panel-body:after, .panel-body:before, .row:after, .row:before {
 	display: table;
 	content: " "

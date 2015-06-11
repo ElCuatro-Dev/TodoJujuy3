@@ -10,28 +10,6 @@
 <link rel="stylesheet" type="text/css" href="css/iconmoon.css" />
 <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
 <script type="text/javascript" charset="utf-8" src="phonegap-1.0.0.js"></script>
-<script type="text/javascript" charset="utf-8">	
-document.addEventListener("deviceready", onDeviceReady, false);	
-function onDeviceReady() {
-	window.analytics.startTrackerWithId('UA-57275656-3')
-}
-function openDeviceBrowser (externalLinkToOpen){
-	window.open(externalLinkToOpen, '_system', 'location=no');
-}	
-document.addEventListener("exitButton",function(){
-    navigator.notification.confirm(
-           'Do you want to quit', 
-           onConfirmQuit, 
-           'QUIT TITLE', 
-           'OK,Cancel'  
-    );
-}, true);
-function onConfirmQuit(button){
-   if(button == "1"){
-     navigator.app.exitApp(); 
-   }
-}
-</script>
 </head>
 
 <body>
@@ -39,7 +17,7 @@ function onConfirmQuit(button){
 <div class="navbar navbar-default navbar-fixed-top" role="navigation">
 	<div class="container">
     	<div class="navbar-header">
-      		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      		<div class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><div class="menubar"></div></div>
       		<a href="index.html" class="logotodojujuy"></a>
             </div>
     		<div class="navbar-collapse collapse">   
